@@ -1,0 +1,34 @@
+@import 'variables';
+
+@mixin middleAll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin textStyles ($fontSize,$fontFamily,$color: $mainColor){
+    color: $color;
+    font-size: $fontSize;
+    font-family: $fontFamily;
+}
+@mixin navLinkStyles ($hoverColor){
+    a{
+        @include textStyles(21px,'GentiumBookBasicBold');
+        display: block;
+        padding: 25px 15px;
+        transition: 0.5s all ease;
+    }
+    a:hover{
+        color: $hoverColor;
+    }
+    
+}
+@mixin section__global{
+    @include middleAll;
+
+    .section__container{
+        width: 1250px;
+        height: 100%;
+        position: relative;
+    }
+}
+
