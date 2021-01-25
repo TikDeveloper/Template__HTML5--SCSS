@@ -1,0 +1,38 @@
+//*************************** Header ***************************//
+header{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+  @include middleAll;
+
+  .section__container{
+    position: relative;
+    z-index: 999;
+    width: 1250px;
+    height: 110px;
+    @include middleAll;
+    justify-content: space-between;
+
+  }
+  &:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url($imagesPath + 'header__bg.png') no-repeat;
+    background-size: cover;
+    background-position-y: -25px;
+    z-index: 900;
+  }
+  @media screen and (max-width:1024px){
+    .header__logo svg{
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+}

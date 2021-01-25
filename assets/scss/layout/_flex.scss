@@ -1,0 +1,11 @@
+.section__global{
+  @include section__global;
+
+
+
+}
+@media screen and (max-width:1024px){
+  .section__container{
+    padding: 0 15px;
+  }
+}

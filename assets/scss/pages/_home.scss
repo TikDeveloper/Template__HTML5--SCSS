@@ -1,0 +1,144 @@
+//*************************** Section-Promo ***************************//
+.section__promo{
+  min-height: 750px;
+  background: url($imagesPath + 'promo__bg.png') no-repeat;
+  background-size: cover;
+  .section__container{
+    height: 370px;
+    @include middleAll;
+    flex-direction: column;
+    h1{
+      @include textStyles(90px,'YesevaOneRegular');
+      text-align: center;
+      font-weight: normal;
+      line-height: 1.3;
+      @media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop){
+        font-size: 50px;
+      }
+      @media screen and (max-width: $breakpoint-tablet){
+        font-size: 25px;
+      }
+    }
+    svg{
+      position: absolute;
+      top: -760px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 230px;
+      @media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop){
+        top: -815px;
+      }
+      @media screen and (max-width: $breakpoint-tablet){
+        top: -840px;
+      }
+    }
+    .promo__btns{
+      margin-top: 80px;
+      width: 500px;
+      @include middleAll;
+      justify-content: space-between;
+      .promo__btn{
+        width: 230px;
+        height: 60px;
+        cursor: pointer;
+        position: relative;
+        z-index: 2;
+        @include textStyles(18px,$LatoRegular);
+        @media screen and (max-width: $breakpoint-tablet){
+          width: 130px;
+          padding: 10px;
+          margin:0 10px;
+          font-size: 14px;
+        }
+      }
+      .promo__btn:first-child{
+        background: url($imagesPath + 'promoBtn__bgBlack.png') no-repeat;
+        background-size: cover;
+      }
+      .promo__btn:last-child{
+        background: url($imagesPath + 'promoBtn__bgWhite.png') no-repeat;
+        background-size: cover;
+      }
+      @media screen and (max-width: $breakpoint-tablet){
+        width: auto;
+      }
+    }
+    @media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop){
+      margin-top: -150px;
+    }
+  }
+}
+
+//*************************** Section-About ***************************//
+.section__aboutUs{
+  min-height: 710px;
+  position: relative;
+  z-index: 2;
+  &:before{
+    content: '';
+    width: 100%;
+    height: 710px;
+    position: absolute;
+    z-index: -1;
+    background: url($imagesPath + 'aboutUs__bg.png') no-repeat;
+    background-size: cover;
+  }
+  &:after{
+    content: '';
+    width: 100%;
+    height: 710px;
+    position: absolute;
+    z-index: 2;
+    background: url($imagesPath + 'aboutUs__bg1.png') no-repeat;
+    background-size: cover;
+  }
+
+  .section__container{
+    @include middleAll;
+    height: 510px;
+    justify-content: space-evenly;
+    .aboutUs__left{
+      width: 430px;
+      height: 100%;
+      text-align: center;
+      position: relative;
+      h2{
+        @include textStyles(36px,$YesevaOneRegular,$headingColor);
+        @media screen and (max-width: $breakpoint-tablet){
+          font-size: 30px;
+        }
+      }
+      svg{
+        position: absolute;
+        top: -1040px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 230px;
+      }
+      p{
+        @include textStyles(16px,$LatoRegular,$descColor);
+        margin-top: 70px;
+        margin-bottom: 45px;
+      }
+      img{
+        margin-left: 75px;
+      }
+      @media screen and (max-width: $breakpoint-tablet){
+        width: auto;
+      }
+    }
+    .aboutUs__right{
+      width: 625px;
+      min-height: 625px;
+      background: url($imagesPath + 'aboutUs__dish.png') no-repeat;
+      background-size: cover;
+      @media screen and (max-width: $breakpoint-desktop){
+        display: none;
+      }
+    }
+  }
+  @media screen and (max-width: $breakpoint-desktop){
+    min-height: auto;
+    margin-top: -125px;
+  }
+}

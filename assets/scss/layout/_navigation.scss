@@ -1,0 +1,31 @@
+nav{
+
+  ul{
+
+    @include middleAll;
+    justify-content: space-between;
+    .nav__item{
+      @include navLinkStyles(#000);
+      @media (min-width:$breakpoint-tablet) and (max-width:$breakpoint-desktop){
+        a{
+          font-size: 16px;
+          padding: 25px 10px;
+        }
+      }
+    }
+    .nav__item:last-child{
+      @include middleAll;
+      svg{
+        margin-left: 20px;
+      }
+      svg:first-child{
+        margin:0;
+      }
+
+    }
+
+    @media screen and (max-width: $breakpoint-tablet){
+      display: none;
+    }
+  }
+}
