@@ -1,5 +1,4 @@
 @import 'abstracts/variables';
-@import 'abstracts/functions';
 @import 'abstracts/mixins';
 
 @import 'base/reset';
@@ -9,16 +8,10 @@
 @import 'layout/flex';
 @import 'layout/header';
 @import 'layout/footer';
-@import 'layout/sidebar';
-@import 'layout/forms';
 
-@import 'components/buttons';
 @import 'components/svgs';
 
 @import 'pages/home';
-
-@import 'themes/theme';
-@import 'themes/admin';
 
 
 

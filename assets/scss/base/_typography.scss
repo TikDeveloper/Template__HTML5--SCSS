@@ -1,24 +1,86 @@
+/* Gentium-book-basic-bold */
 @font-face {
-  font-family: GentiumBookBasicBold;
-  src: url($fontsPath + 'GentiumBookBasic-Bold.ttf');
+  font-family: 'GentiumBookBasicBold';
+  font-style: normal;
+  font-weight: 700;
+  src: url($fontsPath +'gentium-book-basic-v11-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url($fontsPath + 'gentium-book-basic-v11-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url($fontsPath + 'gentium-book-basic-v11-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+  url($fontsPath + 'gentium-book-basic-v11-latin-700.woff') format('woff'), /* Modern Browsers */
+  url($fontsPath + 'gentium-book-basic-v11-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+  url($fontsPath + 'gentium-book-basic-v11-latin-700.svg#GentiumBookBasic') format('svg'); /* Legacy iOS */
 }
+
+/* Lato-regular */
 @font-face {
-  font-family: LatoRegular;
-  src: url($fontsPath + 'Lato-Regular.ttf');
+  font-family: 'LatoRegular';
+  font-style: normal;
+  font-weight: 400;
+  src: url($fontsPath + 'lato-v17-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url($fontsPath + 'lato-v17-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url($fontsPath + 'lato-v17-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url($fontsPath + 'lato-v17-latin-regular.woff') format('woff'), /* Modern Browsers */
+  url($fontsPath + 'lato-v17-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  url($fontsPath + 'lato-v17-latin-regular.svg#Lato') format('svg'); /* Legacy iOS */
 }
+
+/* Open-Sans-bold */
 @font-face {
-  font-family: OpenSansBold;
-  src: url($fontsPath + 'OpenSans-Bold.ttf');
+  font-family: 'OpenSansBold';
+  font-style: normal;
+  font-weight: 600;
+  src: url($fontsPath + 'open-sans-v18-latin-600.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url($fontsPath + 'open-sans-v18-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url($fontsPath + 'open-sans-v18-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+  url($fontsPath + 'open-sans-v18-latin-600.woff') format('woff'), /* Modern Browsers */
+  url($fontsPath + 'open-sans-v18-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+  url($fontsPath + 'open-sans-v18-latin-600.svg#OpenSans') format('svg'); /* Legacy iOS */
 }
+
+/* Open-Sans-italic */
 @font-face {
-  font-family: OpenSansItalic;
-  src: url($fontsPath + 'OpenSans-Italic.ttf');
+  font-family: 'OpenSansItalic';
+  font-style: italic;
+  font-weight: 600;
+  src: url($fontsPath + 'open-sans-v18-latin-600italic.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url($fontsPath + 'open-sans-v18-latin-600italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url($fontsPath + 'open-sans-v18-latin-600italic.woff2') format('woff2'), /* Super Modern Browsers */
+  url($fontsPath + 'open-sans-v18-latin-600italic.woff') format('woff'), /* Modern Browsers */
+  url($fontsPath + 'open-sans-v18-latin-600italic.ttf') format('truetype'), /* Safari, Android, iOS */
+  url($fontsPath + 'open-sans-v18-latin-600italic.svg#OpenSans') format('svg'); /* Legacy iOS */
 }
 @font-face {
   font-family: OpenSansRegular;
   src: url($fontsPath + 'OpenSans-Regular.ttf');
 }
+/* Open-Sans-regular */
 @font-face {
-  font-family: YesevaOneRegular;
-  src: url($fontsPath + 'YesevaOne-Regular.ttf');
+  font-family: 'OpenSansRegular';
+  font-style: normal;
+  font-weight: 400;
+  src: url($fontsPath + 'fonts/open-sans-v18-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url($fontsPath + 'open-sans-v18-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url($fontsPath + 'open-sans-v18-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url($fontsPath + 'open-sans-v18-latin-regular.woff') format('woff'), /* Modern Browsers */
+  url($fontsPath + 'open-sans-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  url($fontsPath + 'open-sans-v18-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+/* Yeseva-One-regular */
+@font-face {
+  font-family: 'YesevaOneRegular';
+  font-style: normal;
+  font-weight: 400;
+  src: url($fontsPath + 'fonts/yeseva-one-v15-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url($fontsPath + 'yeseva-one-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url($fontsPath + 'yeseva-one-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url($fontsPath + 'yeseva-one-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+  url($fontsPath + 'yeseva-one-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  url($fontsPath + 'yeseva-one-v15-latin-regular.svg#YesevaOne') format('svg'); /* Legacy iOS */
 }

@@ -1,5 +1,5 @@
 * {
-  margin: 0px;
+  margin: 0;
   padding: 0;
   list-style-type: none;
   text-decoration: none;
@@ -21,28 +21,48 @@ body {
   background-color: #fff;
 }
 
-body .content {
-  flex: 1 0 auto;
+/* Gentium-book-basic-bold */
+@font-face {
+  font-family: 'GentiumBookBasicBold';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/gentium-book-basic-v11-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/gentium-book-basic-v11-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/gentium-book-basic-v11-latin-700.woff2") format("woff2"), url("../fonts/gentium-book-basic-v11-latin-700.woff") format("woff"), url("../fonts/gentium-book-basic-v11-latin-700.ttf") format("truetype"), url("../fonts/gentium-book-basic-v11-latin-700.svg#GentiumBookBasic") format("svg");
+  /* Legacy iOS */
 }
 
+/* Lato-regular */
 @font-face {
-  font-family: GentiumBookBasicBold;
-  src: url("../fonts/GentiumBookBasic-Bold.ttf");
+  font-family: 'LatoRegular';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/lato-v17-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/lato-v17-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/lato-v17-latin-regular.woff2") format("woff2"), url("../fonts/lato-v17-latin-regular.woff") format("woff"), url("../fonts/lato-v17-latin-regular.ttf") format("truetype"), url("../fonts/lato-v17-latin-regular.svg#Lato") format("svg");
+  /* Legacy iOS */
 }
 
+/* Open-Sans-bold */
 @font-face {
-  font-family: LatoRegular;
-  src: url("../fonts/Lato-Regular.ttf");
+  font-family: 'OpenSansBold';
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/open-sans-v18-latin-600.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/open-sans-v18-latin-600.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans-v18-latin-600.woff2") format("woff2"), url("../fonts/open-sans-v18-latin-600.woff") format("woff"), url("../fonts/open-sans-v18-latin-600.ttf") format("truetype"), url("../fonts/open-sans-v18-latin-600.svg#OpenSans") format("svg");
+  /* Legacy iOS */
 }
 
+/* Open-Sans-italic */
 @font-face {
-  font-family: OpenSansBold;
-  src: url("../fonts/OpenSans-Bold.ttf");
-}
-
-@font-face {
-  font-family: OpenSansItalic;
-  src: url("../fonts/OpenSans-Italic.ttf");
+  font-family: 'OpenSansItalic';
+  font-style: italic;
+  font-weight: 600;
+  src: url("../fonts/open-sans-v18-latin-600italic.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/open-sans-v18-latin-600italic.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans-v18-latin-600italic.woff2") format("woff2"), url("../fonts/open-sans-v18-latin-600italic.woff") format("woff"), url("../fonts/open-sans-v18-latin-600italic.ttf") format("truetype"), url("../fonts/open-sans-v18-latin-600italic.svg#OpenSans") format("svg");
+  /* Legacy iOS */
 }
 
 @font-face {
@@ -50,9 +70,26 @@ body .content {
   src: url("../fonts/OpenSans-Regular.ttf");
 }
 
+/* Open-Sans-regular */
 @font-face {
-  font-family: YesevaOneRegular;
-  src: url("../fonts/YesevaOne-Regular.ttf");
+  font-family: 'OpenSansRegular';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/fonts/open-sans-v18-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/open-sans-v18-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans-v18-latin-regular.woff2") format("woff2"), url("../fonts/open-sans-v18-latin-regular.woff") format("woff"), url("../fonts/open-sans-v18-latin-regular.ttf") format("truetype"), url("../fonts/open-sans-v18-latin-regular.svg#OpenSans") format("svg");
+  /* Legacy iOS */
+}
+
+/* Yeseva-One-regular */
+@font-face {
+  font-family: 'YesevaOneRegular';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/fonts/yeseva-one-v15-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/yeseva-one-v15-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/yeseva-one-v15-latin-regular.woff2") format("woff2"), url("../fonts/yeseva-one-v15-latin-regular.woff") format("woff"), url("../fonts/yeseva-one-v15-latin-regular.ttf") format("truetype"), url("../fonts/yeseva-one-v15-latin-regular.svg#YesevaOne") format("svg");
+  /* Legacy iOS */
 }
 
 nav ul {
