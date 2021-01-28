@@ -1,0 +1,15 @@
+.shp0{
+  fill: #fff;
+}
+.shp1{
+  fill: $headingColor;
+}
+.shp2{
+  fill: $mainColor;
+}
+.shp4{
+  fill: none;
+  stroke: $headingColor;
+  stroke-linecap:round;
+  stroke-width: 4;
+}

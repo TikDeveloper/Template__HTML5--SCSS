@@ -1,15 +1,25 @@
-.shp0{
-  fill: #fff;
+*{
+  margin:0px;
+  padding:0;
+  list-style-type: none;
+  text-decoration: none;
+  border:none;
+  outline: none;
+  color: $mainColor;
+  font-size: $mainFz;
+  font-weight: 400;
 }
-.shp1{
-  fill: $headingColor;
+html{
+  height: 100%;
 }
-.shp2{
-  fill: $mainColor;
-}
-.shp4{
-  fill: none;
-  stroke: $headingColor;
-  stroke-linecap:round;
-  stroke-width: 4;
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: $bgColor;
+
+  .content {
+    flex: 1 0 auto;
+  }
+
 }
